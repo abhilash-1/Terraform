@@ -5,6 +5,6 @@ resource "aws_instance" "example" {
   tags = {
     Name = "Terraform"
     user = "System"
-    project = "roboshop"
+    project = "Roboshop"
   }
 }
