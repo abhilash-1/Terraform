@@ -3,7 +3,7 @@ resource "aws_instance" "example" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "Terraform"
+    Name = "Terraform-1"
     user = "System"
     project = "Roboshop"
   }
